@@ -1,0 +1,288 @@
+body {
+  background-color: black;
+}
+
+div.page {
+width: 775px;
+margin: auto;
+background-color: rgb(255, 253, 237);
+}
+
+div.page2 {
+width: 775px;
+height: 900px;
+margin: auto;
+background-color: rgb(255, 253, 237);
+}
+
+div.page2.cover {
+width: 775px;
+height: 900px;
+margin: auto;
+background-color: rgb(241,202,73);
+}
+
+h1 {
+  font-family:Garamond;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  line-height: 28px;
+  max-width: 35em;
+  margin: auto;
+  padding: 50px;
+  font-weight: normal;
+}
+
+h1:hover {
+  -webkit-animation-name: wiggle;
+    -ms-animation-name: wiggle;
+    -ms-animation-duration: 1000ms;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes wiggle {
+    0% {-webkit-transform: rotate(2deg);}
+    25% {-webkit-transform: rotate(-5deg);}
+    50% {-webkit-transform: rotate(5deg);}
+    75% {-webkit-transform: rotate(-5deg);}
+    100% {-webkit-transform: rotate(0deg);}
+  }
+
+  @-ms-keyframes wiggle {
+    0% {-ms-transform: rotate(1deg);}
+    25% {-ms-transform: rotate(-1deg);}
+    50% {-ms-transform: rotate(1.5deg);}
+    75% {-ms-transform: rotate(-5deg);}
+    100% {-ms-transform: rotate(0deg);}
+  }
+
+  @keyframes wiggle {
+    0% {transform: rotate(5deg);}
+    25% {transform: rotate(-5deg);}
+    50% {transform: rotate(5deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(2deg);}
+  }
+
+p {
+font-family:Garamond;
+font-size: 20px;
+color: black;
+text-align: center;
+line-height: 28px;
+max-width: 30em;
+margin: auto;
+text-align: left;
+padding: 15px;
+}
+
+
+h2 {
+  font-family:Garamond;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  line-height: 28px;
+  max-width: 35em;
+  margin: auto;
+  font-weight: normal;
+  padding: 40px;
+}
+
+span.quote {
+  font-family:Helvetica;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  line-height: 28px;
+  max-width: 35em;
+  margin: auto;
+  font-weight:bold;
+}
+
+span.quote:hover {
+  font-size: 30px;
+}
+
+span.quote:active {
+  /* background-color: rgb(63,140,190, 0.6); */
+background-color: rgb(241,202,73,0.7);
+}
+
+p.chapter {
+  font-size: 400px;
+  font-weight: bold;
+  text-align: center;
+  display:grid;
+padding-top: 300px;
+font-family: Helvetica;
+}
+
+p.chapter:hover {
+  font-size: 550px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img.arrow1 {
+width: 50px;
+display: block;
+margin: auto;
+}
+
+img.arrow1:hover{
+  width: 100px;
+}
+
+div.arrow1.first {
+  opacity: 0;
+}
+
+img.arrow2 {
+width: 50px;
+display: block;
+margin: auto;
+}
+
+img.arrow2:hover{
+  width: 90px;
+}
+
+div.arrow2.last {
+  opacity: 0;
+}
+
+div.arrow1 {
+  transform: rotate(180deg);
+  width: 80px;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+div.arrow2 {
+  width: 80px;
+  padding: 20px;
+  margin-right: 200px;
+}
+
+div.breadcrumbs {
+  display: inline-flex;
+  margin: auto;
+  align-items: center;
+  width: 775px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+p.indexchapter {
+  font-family:Helvetica;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  margin: auto;
+  /* padding-left: 15px;
+  margin-left: 15px; */
+  text-align: center;
+  /* padding: 15px; */
+  padding-bottom: 40px;
+  /* display: flex; */
+  text-align: center;
+  margin: auto;
+}
+
+p.indexchapter:hover {
+  font-size: 80px;
+}
+
+p.indexchapter.notyet:hover {
+  font-size: 10px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-delay: 0.02s;
+  transition-duration: 0.07s;
+}
+
+p.indexpart {
+  padding: 15px;
+  font-style: Garamond;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* div.index {
+  display: flex;
+} */
+/*
+div.indexpages {
+  text-align: right;
+} */
+
+p.title {
+  font-family: Helvetica;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 90px;
+  font-weight: bold;
+  color: rgb(255, 253, 237);
+  line-height: 80px;
+}
+
+p.title:hover {
+  font-size: 120px;
+  line-height: 120px;
+}
+
+div.breadcrumbs.cover {
+  padding-top: 525px;
+}
+
+p.author {
+  font-style: Garamond;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+p.author:hover {
+  -webkit-animation-name: wiggle;
+    -ms-animation-name: wiggle;
+    -ms-animation-duration: 1000ms;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes wiggle {
+    0% {-webkit-transform: rotate(5deg);}
+    25% {-webkit-transform: rotate(-10deg);}
+    50% {-webkit-transform: rotate(180deg);}
+    75% {-webkit-transform: rotate(-180deg);}
+    100% {-webkit-transform: rotate(0deg);}
+  }
+
+  @-ms-keyframes wiggle {
+    0% {-ms-transform: rotate(5deg);}
+    25% {-ms-transform: rotate(-5deg);}
+    50% {-ms-transform: rotate(5deg);}
+    75% {-ms-transform: rotate(-10deg);}
+    100% {-ms-transform: rotate(0deg);}
+  }
+
+  @keyframes wiggle {
+    0% {transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(10deg);}
+    75% {transform: rotate(-10deg);}
+    100% {transform: rotate(5deg);}
+  }
